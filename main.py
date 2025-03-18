@@ -12,6 +12,6 @@ df = pd.read_csv(url)
 content_artist=df['Content']
 artist_name = df['Name']
 spot_link = df['Spotify']
-
+seo_add = df['SEO tag']
 # for i in spot_link:
 #     get_top_tracks_by_artist_url(i)
